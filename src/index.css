@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Proxima_bold;
+  src: url("../public/font/Proxima\ Nova\ Alt\ Bold.otf");
+}
+
+@font-face {
+  font-family: Proxima_nova_thin;
+  src: url("../public/font/Proxima\ Nova\ Alt\ Thin.otf");
+}
+
+html {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* 
+body::-webkit-scrollbar {
+  overflow: initial;
+  position: fixed;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(white, #8bd6ea, white);
+  border-radius: 2rem;
+  width: 1rem !important;
+  border-radius: 2rem;
+}
+
+body::-webkit-scrollbar-track {
+  position: fixed;
+  right: 0px;
+  width: 0px;
+  background: transparent !important;
+} */
